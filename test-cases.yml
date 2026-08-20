@@ -1,0 +1,13 @@
+---
+- summary: |
+    Проверка поиска по ключевым словам на главной странице
+  requirement: |
+    Пользователь должен иметь возможность искать товары по ключевому слову
+  prerequisites: |
+    Открыть страницу "https://products-store.hexlet.app/" или нажать на вкладку Store
+  test-data: |
+    essence
+  steps:
+    - Вводим в поисковую строку тестовые данные
+  expected-result: |
+    Пользователь должен увидеть один товар "Essence Mascara Lash Princess"
