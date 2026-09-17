@@ -1,0 +1,7 @@
+---
+test-cases:
+- summary: |
+    Проверка поиска по ключевым словам на главной странице
+  status: pass
+
+bugreports: []
